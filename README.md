@@ -4,7 +4,7 @@ A physically-modelled virtual-instrument of a modal bowl
 For this project I recorded a metal bowl I found that had a really interesting sound to it and created a physically modelled virtual instrument out of it. To do so I used Perry R. Cook's ChucK script to analyze the recording I made and give me the the frequencies and their respective amplitudes that made up the modal sound of the bowl being struck. Then I made the physical model by setting some resonant filters to the mode's frequencies, amplitudes, and T60s and routed in an impulse to excite the filters and simulate a strike. Finally I made an array of these modeled bowls, retuned them, and set up an algorithmic song for them to play out, which will vary every time its run.
 
 ## Examples
-I included the original recording of the bowl I used for reference as well as a recording of the generative piece. 
+I included the original recording of the bowl I made for reference as well as a recording of the generative piece using the physical model. 
 
 ## Running the Code
 #### Installing ChucK
